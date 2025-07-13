@@ -1,69 +1,102 @@
-# CGPA Calculator in C
+# CGPA Calculator using C
 
 A simple terminal-based CGPA calculator written in C.
 
 ---
 
-## This CGPA Calculator uses the following grade-to-grade-point conversion system:
+## ⚠️ This CGPA Calculator uses the following grade-to-grade-point conversion system:
 
 ![CGPA Calculator Demo](grade_system.png)
 
 ---
 
-## What You Need to Run This Project
+## 🧠 How It Works
+
+- Enter the number of subjects.
+- Enter the marks of each subject, credits of each subject.
+- Validates inputs for marks and credits.
+- Automatically calculates :
+
+  - Final CGPA
+  - Final Percentage
+
+- Displays the calculated data in a tabular form.
+
+---
+
+## 🛠️ Tools & Languages Used
+
+<p align="left">
+  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C language logo" width=60/>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gcc/gcc-original.svg" alt="gcc logo" width=60/>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cmake/cmake-original.svg" alt="Cmake logo" width=60/>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS-Code logo" width="60"/>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="bash-terminal logo" width="60"/>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git logo" width=60/>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="github logo" width=60/>
+          
+</p>
+
+---
+
+## 🖥️ Project Requirements
 
 Before you run the program, make sure you have the following:
 
-- A **C compiler** like `gcc` (used to turn your code into a program).
-- **Make** (helps to easily compile the code with one command).
-- A terminal (like the one in macOS, Linux, or Windows with WSL).
+Before you run the program, make sure you have the following :
 
-> **macOS:** Install Xcode Command Line Tools:  
-> `xcode-select --install`
->
-> **Windows:** Install [MinGW](https://www.mingw-w64.org/) or use [WSL](https://learn.microsoft.com/en-us/windows/wsl/) (Windows Subsystem for Linux).
+- A **C compiler** (e.g., `gcc`)
+- The **Make** utility (to build the project using a Makefile)
+- A **terminal or shell environment** (macOS, Linux, or Windows using WSL/MinGW)
 
-## How to Run This On Your Device
+## 🤖 How to Run This On Your Device
 
-### First-Time Setup Instructions
+### 🛸 First-Time Setup Instructions
 
 > (Follow these steps when setting up the project for the first time.)
 
-### ⒈ Navigate to Desktop (you can clone in any directory)
+#### ⒈ Navigate to Desktop (you can clone in any directory)
 
 `cd Desktop`
 
-### ⒉ Clone the Repository
+#### ⒉ Clone the Repository
 
 `git clone https://github.com/manakcodes/cgpa-calc-using-c.git`
 
 ---
 
-### How to Use the Calculator
+### 📊 How to Use the Calculator
 
 > (Follow these steps to use the cgpa calculator every time.)
 
-### ⒈Enter the project directory
+#### ⒈Enter the project directory
 
 `cd ~/Desktop/cgpa-calculator-in-c`
 
-### ⒉ Compile the Source Code Using Makefile
+#### ⒉ Compile the Source Code Using Makefile
 
 `make`
 
-### ⒊ Run the Program
+#### ⒊ Run the Program
 
 `./Main`
 
-### ⒋ Clean Build Artifacts (To remove compiled files and reset the project state)
+#### ⒋ Clean Build Artifacts (To remove compiled files and reset the project state)
 
 `make clean`
 
 ---
 
-## [license](https://github.com/manakcodes/cgpa-calc-using-c/blob/82ddf3f5669b9a5e2e3a5e4a131ae997368e6a7b/LICENSE)
+## 🪪 [LICENSE](https://github.com/manakcodes/cgpa-calc-using-c/blob/82ddf3f5669b9a5e2e3a5e4a131ae997368e6a7b/LICENSE)
 
-## Project Tree
+## 🌲 Project Tree
 
 <pre>
 <code>
